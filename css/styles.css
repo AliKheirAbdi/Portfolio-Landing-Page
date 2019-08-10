@@ -1,13 +1,35 @@
-head{
-  background-color: grey
+body{
+  background-color: #f7ef6a;
 }
 
 h1{text-align: center;
   text-decoration: underline;
-  color: blue;
+  color: #2196f3;
   font-size: 32px;
   font-weight: bold;
 }
+
+.Alinav {
+  width: 230px;
+  position: fixed;
+  top: 112px;
+  left: 10px;
+  background: #ffffff;
+}
+
+.Alinav a {
+
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.Alinav a:hover {
+  color: #064579;
+}
+
+
 h2{text-align: center;
   font-style: italic;
   font-size: 20px;
@@ -17,6 +39,72 @@ h2{text-align: center;
   font-size: 18px;
   color: black;
 }
+.mainimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  height: 500px;
+}
+.image1{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.image2{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-container {
+  display: flex;
+  justify-content: left;
+  padding-left: 300px;
+}
+.passport{
+  height: 250px;
+  width: 250px;
+}
+
+.webdesign{
+  padding-left: 90px;
+}
+
+.appdev{
+  padding-left: 90px;
+}
+.happytrails{
+   padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -34,6 +122,6 @@ h2{text-align: center;
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  background-color: grey;
+  background-color: #2196f3;
   color: yellow;
 }
